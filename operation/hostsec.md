@@ -2,7 +2,7 @@
 
 # 主机安全
 
-![](/images/operation/主机安全.png)
+![](/images/operation/%25E4%25B8%25BB%25E6%259C%25BA%25E5%25AE%2589%25E5%2585%25A8.png)
 
 表1.主机安全列表参数
 
