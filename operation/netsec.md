@@ -6,7 +6,7 @@
 
 统计所有此账户下的外网IP封堵和受攻击状态。
 
-![](/images/operation/网络安全.png)
+![](/images/operation/%25E7%25BD%2591%25E7%25BB%259C%25E5%25AE%2589%25E5%2585%25A8.png)
 
 表1.EIP状态列表参数
 
