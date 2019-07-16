@@ -33,7 +33,7 @@ Agent由用户决定是否安装
 
 能够检索到uca字样的文件即为成功。
 
-![](/images/operation/图片1.png)
+![](/images/operation/%25E5%259B%25BE%25E7%2589%25871.png)
 
 ## 2、修复说明
 
