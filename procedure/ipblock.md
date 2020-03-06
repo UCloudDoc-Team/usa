@@ -15,5 +15,3 @@
 2、购买了主机并安装了[主机入侵检测UHIDS](/security/uhids/common)的agent
 
 3、购买了[企业应用防火墙UEWAF](/security/uewaf/concepts)
-
-4、购买了[漏洞扫描UWS](/security/uws_robot/concept)产品
