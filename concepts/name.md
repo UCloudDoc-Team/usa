@@ -10,7 +10,7 @@
 
 ### 网络安全
 
-以IP作为对象分析客户的网络是否健康，监控平台上所有IP的安全状态，是否发生ddos攻击以及是否被黑洞。默认黑洞时长为24小时，黑洞阈值参见[此帮助文档](/security/uantiddos/usecurity/datacenter)。
+以IP作为对象分析客户的网络是否健康，监控平台上所有IP的安全状态，是否发生ddos攻击以及是否被黑洞。默认黑洞时长为24小时，黑洞阈值参见[此帮助文档](uantiddos/usecurity/datacenter)。
 
 ### 主机安全
 
