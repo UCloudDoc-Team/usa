@@ -1,7 +1,7 @@
 # 概览
 
 * 产品简介
-    * [名词解释](/usa/concepts/name) 
+    * [名词解释.](/usa/concepts/name) 
     * [产品概述](/usa/concepts/overview)
     * [主要功能](/usa/concepts/function)
 * [架构和原理简介](/usa/architecture)
