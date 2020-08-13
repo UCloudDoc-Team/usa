@@ -14,4 +14,4 @@
 
 2、购买了主机并安装了[主机入侵检测UHIDS](uhids/common)的agent
 
-3、购买了[企业应用防火墙UEWAF](uewaf/concepts)
+3、购买了[企业应用防火墙UEWAF](uewaf/README)
