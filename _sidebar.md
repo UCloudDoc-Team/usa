@@ -12,7 +12,6 @@
     * [Agent安装和修复说明](/usa/operation/agent)
     * [网络安全](/usa/operation/netsec)
     * [主机安全](/usa/operation/hostsec)
-    * [应用安全](/usa/operation/websec)
     * [告警设置](/usa/operation/alert)
 
    
