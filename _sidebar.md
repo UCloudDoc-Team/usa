@@ -1,4 +1,3 @@
-<div class="sidebar_title"> 态势感知 USSA</div>
 
 * [概览](/usa/README)
 * 产品简介
