@@ -5,7 +5,7 @@
     * [主要功能](/usa/concepts/function)
 * [架构和原理简介](/usa/architecture)
 * 快速上手
-    * [态势感知初次使用](/usa/procedure/ipblock) 
+    * [云安全中心初次使用](/usa/procedure/ipblock) 
 * 操作指南
     * [概览](/usa/operation/summary)
     * [资产拓扑图](/usa/operation/topology)
