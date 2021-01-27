@@ -12,13 +12,13 @@
 
 1、购买了基础网络UNET-外网IP
 
-2、购买了主机并安装了[主机入侵检测UHIDS](uhids/common)的agent
+2、购买了主机并安装了[主机入侵检测UHIDS](uhids/README)的agent
 
 3、购买了[企业应用防火墙UEWAF](uewaf/README)
 
 4、购买了[DDoS攻击防护UDDoS](uantiddos/README)
 
-5、使用了[清洗服务UClean](uclean/overview)
+5、使用了[清洗服务UClean](uantiddos/uclean/overview)
 
 6、使用了[堡垒机服务UAuditHost](uhas/README)
 
