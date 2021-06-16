@@ -4,6 +4,7 @@
     * [产品概述](/usa/concepts/overview)
     * [主要功能](/usa/concepts/function)
 * [架构和原理简介](/usa/architecture)
+* [安全责任共担](/usa/安全责任共担)
 * 快速上手
     * [云安全中心初次使用](/usa/procedure/ipblock) 
 * 操作指南
