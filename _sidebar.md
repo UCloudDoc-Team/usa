@@ -15,7 +15,7 @@
     * [安全事件](/usa/operation/secincident)
     * [等保预检](/usa/operation/compliance)
     * [告警设置](/usa/operation/alert)
-    * [告警设置](/usa/operation/usir)
+    * [应急响应](/usa/operation/usir)
 
 
 ​    
