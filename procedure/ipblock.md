@@ -23,5 +23,3 @@
 6、使用了[堡垒机服务UAuditHost](uhas/README)
 
 7、使用了[数据库审计服务UDAS](udas/README)
-
-8、使用了[漏洞扫描系统UWS](uws/README)
