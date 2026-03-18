@@ -120,7 +120,7 @@ PasswordAuthentication no
 ![账户降权操作展示](/images/operation/AISec/openclaw/account_downgrade_1.png)
 "具体详细操作，将查看相关脚本"
 
-## 入侵检测
+### 入侵检测
 主机入侵检测通过监控系统内部状态，弥补了外围防御的盲区，是识别绕过防火墙的入侵、感知内部异常行为并进行有效响应的最后一道防线。
 
 1.创建轻量应用云主机时选择开启安全加固
