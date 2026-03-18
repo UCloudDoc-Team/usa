@@ -34,6 +34,26 @@ ExecStart=/usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --p
 Environment=OPENCLAW_GATEWAY_PORT=18789
 ```
 
+2.修改主配置文件参数，文件路径 /root/.openclaw/openclaw.json。将端口号与上述修改后的端口号保持一致
+``` bash
+"gateway": {
+  "port": 18789,  # 修改端口号
+  // 其他配置
+}
+```
+
+3.更新防火墙策略，对新修改的端口号放行。操作步骤见【访问控制】
+
+4.重启 OpenClaw
+``` bash
+# 重新加载服务配置，并重启 OpenClaw 网关
+systemctl --user daemon-reload && systemctl --user restart openclaw-gateway.service
+```
+
+5.完成端口修改后重启完服务核对默认的端口号是否被修改成功：
+
+![端口控制展示](/images/operation/AISec/openclaw/port_control_1.png)
+
 
 本脚本用于安全风险项的扫描与基线合规检查，面向 OpenClaw 运行环境，从系统层、网络层、应用层及配置层多个维度对潜在安全问题进行自动化识别与分析。通过标准化检测逻辑，对主机当前状态进行全面评估，并输出结构化审计结果，用于指导后续安全加固与整改工作。
 
