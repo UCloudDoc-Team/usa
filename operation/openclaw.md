@@ -25,7 +25,7 @@ chmod +x OpenClaw_Security_Hardening.sh
 执行结果如图所示：
 
 ![exec_result](exec_result.png)
-
+![执行效果展示](/images/operation/openclaw_exec_result.png)
 
 
 ## 安全审计检测项说明
