@@ -204,8 +204,8 @@ echo "find /tmp/openclaw -name '*.log' -mtime +7 -delete" >> /etc/crontab
 ### 数据韧性
 config/DB 定期异地加密备份
 建议一：OpenClaw服务器安装部署、完成初始化配置后可通过制定自定义镜像备份系统初始状态
-建议二：常态的硬盘数据备份使用快照、云硬盘备份 UFS https://www.ucloud.cn/site/product/ufs.html（欢迎与优刻得联系）
-建议三：将OpenClaw运行中产生的记忆类数据、结果类数据和运行日志 转存到![轻量对象存储US3](https://www.ucloud.cn/site/product/ufile.html) （欢迎与优刻得联系）
+建议二：常态的硬盘数据备份使用快照、[云硬盘备份UFS](https://www.ucloud.cn/site/product/ufs.html)（欢迎与优刻得联系）
+建议三：将OpenClaw运行中产生的记忆类数据、结果类数据和运行日志 转存到[轻量对象存储US3](https://www.ucloud.cn/site/product/ufile.html) （欢迎与优刻得联系）
 
 ### 应急响应
 制定分钟级灾难恢复预案
