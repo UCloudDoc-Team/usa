@@ -6,7 +6,7 @@
 
 ## 脚本地址
 
-https://ucloud-security-openclaw.cn-bj.ufileos.com/OpenClaw_Security_Hardening.sh
+https://github.com/UCloudDoc-Team/usa/procedure/OpenClaw_Security_Hardening.sh
 
 
 
