@@ -9,10 +9,13 @@
 
 1.登录UCloud云控制台 → 进入「轻量应用服务器」→ 选中部署OpenClaw的服务器实例点击详情：
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_1.png)
+
 2.左侧导航栏点击「防火墙」→ 「编辑」按钮：
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_2.png)
+
 3.如果当前的外网防火墙策略是暴露18789 端口的，则可以选择更换其他外网防火墙策略，避免开放18789这个默认端口
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_3.png)
+
 4.若需要通过公网的形式提供18789 端口服务给有固定来源的地址访问，则可以选择新增一条外网防火墙策略：
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_4.png)
 
