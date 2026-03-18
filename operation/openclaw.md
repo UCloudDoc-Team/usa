@@ -6,8 +6,8 @@
 
 ## 脚本地址
 
-https://github.com/UCloudDoc-Team/usa/procedure/OpenClaw_Security_Hardening.sh
-
+[https://github.com/UCloudDoc-Team/usa/procedure/OpenClaw_Security_Hardening.sh
+](https://github.com/UCloudDoc-Team/usa/blob/master/procedure/OpenClaw_Security_Hardening.sh)
 
 
 ## 使用方法
