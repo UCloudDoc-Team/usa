@@ -13,7 +13,7 @@
 ## 使用方法
 
 ```bash
-wget https://ucloud-security-openclaw.cn-bj.ufileos.com/OpenClaw_Security_Hardening.sh
+wget https://github.com/UCloudDoc-Team/usa/procedure/OpenClaw_Security_Hardening.sh
 
 chmod +x OpenClaw_Security_Hardening.sh
 
