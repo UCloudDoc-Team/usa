@@ -8,6 +8,7 @@
 - 配置云安全组或防火墙规则，仅允许受信任 IP（如公司内网、VPN）访问
 
 1.登录UCloud云控制台 → 进入「轻量应用服务器」→ 选中部署OpenClaw的服务器实例点击详情：
+
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_1.png)
 
 2.左侧导航栏点击「防火墙」→ 「编辑」按钮：
@@ -21,6 +22,17 @@
 4.若需要通过公网的形式提供18789 端口服务给有固定来源的地址访问，则可以选择新增一条外网防火墙策略：
 
 ![访问控制展示](/images/operation/AISec/openclaw/access_control_4.png)
+
+### 端口混淆
+如果确实有 WebUI 访问的需求，可将默认端口。
+1.登录服务器，找到对应的服务文件 /root/.config/systemd/user/openclaw-gateway.service
+找到如下两行参数内容，将 18789 修改为其他端口号（例如： 37495 等），修改后重启服务
+
+``` bash
+[Service]
+ExecStart=/usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789
+Environment=OPENCLAW_GATEWAY_PORT=18789
+```
 
 
 本脚本用于安全风险项的扫描与基线合规检查，面向 OpenClaw 运行环境，从系统层、网络层、应用层及配置层多个维度对潜在安全问题进行自动化识别与分析。通过标准化检测逻辑，对主机当前状态进行全面评估，并输出结构化审计结果，用于指导后续安全加固与整改工作。
