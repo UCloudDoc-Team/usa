@@ -8,7 +8,7 @@
 - 配置云安全组或防火墙规则，仅允许受信任 IP（如公司内网、VPN）访问
 
 1.登录UCloud云控制台 → 进入「轻量应用服务器」→ 选中部署OpenClaw的服务器实例点击详情：
-
+![访问控制展示](/images/operation/AISec/openclaw/access_control_1.png)
 
 
 
