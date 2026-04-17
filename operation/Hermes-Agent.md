@@ -1,6 +1,6 @@
 # 云上 Hermes-Agent 安全加固指南
 
-# 背景
+## 背景
 
 ![image](images/operation/AISec/hermes-agent/hyHpWwrvRHHtFCWKnYzeveQJPeLvKpAZDHjDtqrFb_c.png)
 
@@ -21,7 +21,7 @@
 
 ---
 
-# 整体安全加固思路
+## 整体安全加固思路
 
 Hermes-Agent 五层安全防护体系
 
