@@ -19,6 +19,7 @@
     * [应急响应](/usa/operation/usir)
 * AI安全
     * [OpenClaw云环境安全加固指南](/usa/operation/openclaw)
+    * [HermesAgent云环境安全加固指南](/usa/operation/Hermes-Agent)
 
 
 ​    
