@@ -1,7 +1,7 @@
 # 云上 Hermes-Agent 安全加固指南
 
 ## 背景
-
+ 
 ![image](images/operation/AISec/hermes-agent/hyHpWwrvRHHtFCWKnYzeveQJPeLvKpAZDHjDtqrFb_c.png)
 
 随着 AI Agent 从"指令跟随"向"自主进化"跨越， **Hermes-Agent** 展现出显著优于 OpenClaw 等传统框架的特性。不同于 OpenClaw 依赖静态插件和中心化网关的被动架构，Hermes-Agent 核心集成了**闭环学习机制**，能够根据任务经验自主生成并精炼 **Skills**（技能库），实现能力的跨会话指数级增长。同时，其支持 Docker、SSH、Serverless 等六大后端，提供了远超 OpenClaw 的跨平台运行能力。
