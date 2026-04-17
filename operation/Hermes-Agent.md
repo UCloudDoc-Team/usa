@@ -2,7 +2,7 @@
 
 # 背景
 
-![image](assets/resources/hyHpWwrvRHHtFCWKnYzeveQJPeLvKpAZDHjDtqrFb_c.png)
+![image](images/operation/AISec/hermes-agent/hyHpWwrvRHHtFCWKnYzeveQJPeLvKpAZDHjDtqrFb_c.png)
 
 随着 AI Agent 从"指令跟随"向"自主进化"跨越， **Hermes-Agent** 展现出显著优于 OpenClaw 等传统框架的特性。不同于 OpenClaw 依赖静态插件和中心化网关的被动架构，Hermes-Agent 核心集成了**闭环学习机制**，能够根据任务经验自主生成并精炼 **Skills**（技能库），实现能力的跨会话指数级增长。同时，其支持 Docker、SSH、Serverless 等六大后端，提供了远超 OpenClaw 的跨平台运行能力。
 
@@ -40,7 +40,7 @@ Hermes-Agent 五层安全防护体系
 5. 持续运营与恢复：日志审计 + 数据备份与恢复 + 应急响应
 
    - 作用：建立全天候监控与回溯能力，定期备份关键数据并验证可恢复性，制定应急预案以快速响应安全事件，实现业务连续性。
-![image](assets/resources/rmRgEPvyoKeIN-cFq2vsyOAXJTa3vpIxVLw5BCNsBHQ.png)
+![image](images/operation/AISec/hermes-agent/rmRgEPvyoKeIN-cFq2vsyOAXJTa3vpIxVLw5BCNsBHQ.png)
 
 ---
 
@@ -54,15 +54,15 @@ Hermes-Agent 五层安全防护体系
 
 登录云控制台 → 进入「轻量应用云主机ULHost」→ 选中详情
 
-![image](assets/resources/8iXvQeTutmiTHMtOybSNPa8XUsepbaa4A2KMzQHuWNQ.png)
+![image](images/operation/AISec/hermes-agent/8iXvQeTutmiTHMtOybSNPa8XUsepbaa4A2KMzQHuWNQ.png)
 
 点击「防火墙」→「编辑」
 
-![image](assets/resources/AUByRNg3pW3hL_HStym1F7AZJ4eoDxTl_lswP9ACYhc.png)
+![image](images/operation/AISec/hermes-agent/AUByRNg3pW3hL_HStym1F7AZJ4eoDxTl_lswP9ACYhc.png)
 
 仅开放业务所需端口，尽最大可能减少暴露面
 
-![image](assets/resources/tKPKk9oNKGqFDDN2uQX78KhTOEjVhEBYNLtW5sXAptg.png)
+![image](images/operation/AISec/hermes-agent/tKPKk9oNKGqFDDN2uQX78KhTOEjVhEBYNLtW5sXAptg.png)
 
 ---
 
@@ -119,7 +119,7 @@ sudo vim /etc/security/pwquality.conf
  
 修改为如下策略
 
-![image](assets/resources/T1PUgbX9O5u_XyC5dt_9VOOGiTaMasYxwKPvKvgMaE0.png)
+![image](images/operation/AISec/hermes-agent/T1PUgbX9O5u_XyC5dt_9VOOGiTaMasYxwKPvKvgMaE0.png)
 
 ---
 
@@ -152,7 +152,7 @@ kill -9 -1                   # 杀死所有进程
  
 在此处按照格式，可新增其他命令
 
-![image](assets/resources/VLP1qFj2i8sn987LvOkrqIkuq1wnIrBmPnI6PSJ-0PU.png)
+![image](images/operation/AISec/hermes-agent/VLP1qFj2i8sn987LvOkrqIkuq1wnIrBmPnI6PSJ-0PU.png)
 
 #### 配置审批模式
 
@@ -170,7 +170,7 @@ approvals:
 - smart：使用辅助 LLM 自动评估风险，低风险命令自动放行
 - off：关闭审批（不推荐）
 
-![image](assets/resources/VHh14zlKOMgIUbHUZ4oJQSq6cFTVUEjkLKLQbFxBwy8.png)
+![image](images/operation/AISec/hermes-agent/VHh14zlKOMgIUbHUZ4oJQSq6cFTVUEjkLKLQbFxBwy8.png)
 
 #### 配置永久允许列表
 
@@ -182,7 +182,7 @@ command_allowlist:
   - "disk copy"               # 允许 dd if=
 ```
  
-![image](assets/resources/uUjwo5ECrC_H2hXQjM4xwKnqqkJ_uqQLPtkb6F5PCLA.png)
+![image](images/operation/AISec/hermes-agent/uUjwo5ECrC_H2hXQjM4xwKnqqkJ_uqQLPtkb6F5PCLA.png)
 
 ---
 
@@ -224,7 +224,7 @@ echo 'source ~/.venv/hermes/bin/activate' >> ~/.bashrc
 
 >  说明：v0.5.0(v2026.3.28) 及以上版本已移除 LiteLLM 依赖，使用自研 LLM 客户端
 
-![image](assets/resources/j4BKUDAqJlWmjs6DE5MIW3mg9oDbJb0PfQeuMsCQVL0.png)
+![image](images/operation/AISec/hermes-agent/j4BKUDAqJlWmjs6DE5MIW3mg9oDbJb0PfQeuMsCQVL0.png)
 
 #### 依赖版本锁定
 
@@ -505,6 +505,6 @@ chmod +x hermes_agent_security_scan.sh
  
 执行结果
 
-![image](assets/resources/gi0KOqej8EDBKoh44i4h9qwt3tAQmynCS8uf9QukPus.png)
+![image](images/operation/AISec/hermes-agent/gi0KOqej8EDBKoh44i4h9qwt3tAQmynCS8uf9QukPus.png)
 
 
