@@ -20,7 +20,7 @@
 * AI安全
     * [OpenClaw云环境安全加固指南](/usa/operation/openclaw)
     * [HermesAgent云环境安全加固指南](/usa/operation/Hermes-Agent)
-
+    * [Skill Auditor - Agent 技能安全审计工具](/usa/operation/skills-auditor)
 
 ​    
 
