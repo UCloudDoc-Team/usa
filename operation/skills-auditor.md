@@ -1,4 +1,4 @@
-# v2 - Skill Auditor - Agent 技能安全审计工具
+# Skill Auditor - Agent 技能安全审计工具
 
 ---
 
